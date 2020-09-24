@@ -1,7 +1,5 @@
-const hello = () => {
+export const hello = () => {
   return("Hello, World!")
 };
 
 console.log(hello())
-
-export {hello}
